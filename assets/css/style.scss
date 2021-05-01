@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(236, 161, 48);
+}
+.navbar{
+    text-align: center;
+    z-index: 999;
+}
+.logo{
+    font-size: 5rem;
+    color: rgb(36, 30, 30);
+}
+.nav-items{
+    font-size: 2rem;
+    padding: 2.5rem;
+    
+}
+a{
+    text-decoration: none;
+    color:white;
+    border-radius: 10px;
+}
+a:hover{
+    background-color: rgb(255, 6, 56);
+}

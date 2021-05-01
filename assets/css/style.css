@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #eca130;
+}
+
+.navbar {
+  text-align: center;
+  z-index: 999;
+}
+
+.logo {
+  font-size: 5rem;
+  color: #241e1e;
+}
+
+.nav-items {
+  font-size: 2rem;
+  padding: 2.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+}
+
+a:hover {
+  background-color: #ff0638;
+}
+/*# sourceMappingURL=style.css.map */

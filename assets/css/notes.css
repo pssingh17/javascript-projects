@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1rem;
+}
+
+.heading {
+  width: 50%;
+  margin-left: 2rem;
+}
+
+.menu-icon {
+  width: 50%;
+  text-align: end;
+  margin-right: 2rem;
+  font-size: 1.8rem;
+}
+
+.nav-list {
+  width: 50%;
+  background-color: #2b2b2b;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  font-size: 1.3rem;
+  z-index: 999;
+}
+
+.show {
+  left: 0;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.nav-items {
+  padding: 1rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.nav-items > a {
+  display: block;
+  color: red;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.nav-items > a:hover {
+  background-color: #555555;
+}
+
+.container {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.subhead {
+  margin: 1rem;
+  color: orangered;
+}
+
+#txtarea {
+  width: 100%;
+}
+
+.addNote > button {
+  padding: .5rem;
+  font-size: 1.3rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  color: white;
+  background-color: orangered;
+}
+
+.notesContainer {
+  margin: 2rem;
+  text-align: center;
+  overflow: auto;
+}
+
+.notes {
+  width: 28%;
+  height: auto;
+  min-height: 10rem;
+  border: 1px solid black;
+  margin: .4rem;
+}
+
+.noteContent {
+  word-wrap: break-word;
+  overflow: auto;
+}
+
+#notesPopulate {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.notesContainer h2 {
+  text-align: center;
+  color: orangered;
+}
+
+.noteHeading {
+  text-align: center;
+  padding: .8rem;
+  border-bottom: 1.5px solid gray;
+}
+
+.delBtn {
+  text-align: center;
+}
+
+.delBtn > button {
+  padding: .5rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  color: white;
+  background-color: orangered;
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .delBtn > button {
+    font-size: .8rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .delBtn > button {
+    padding: .2rem;
+    margin: .5rem;
+    border-radius: .5rem;
+    font-size: .4rem;
+  }
+}
+/*# sourceMappingURL=notes.css.map */
